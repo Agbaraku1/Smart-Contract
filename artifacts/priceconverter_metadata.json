@@ -4,53 +4,7 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "ethAmount",
-						"type": "uint256"
-					}
-				],
-				"name": "getConversionRate",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getPrice",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getversion",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			}
-		],
+		"abi": [],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -87,11 +41,11 @@
 			]
 		},
 		"Contract/PriceConverter.sol": {
-			"keccak256": "0xdddfe2e278a2e02a352dbba45afed0ae7be79410953bf2cc9efdb858bbbedb4b",
+			"keccak256": "0x77287fc02619bd3f697ee69fc97cd3b8b7808db6ebe873d9f3b0a315b867f27a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://03d0e77038067407bb923c8c61d582740497624b3fdcd2d0ae62e2e22f353f9b",
-				"dweb:/ipfs/QmPLH1LyZTaR2r8rQWf7woD5kNi74VZnJaJENB6ReMBLk8"
+				"bzz-raw://baccbd480fa58670033002065dd81ea94a73e07b5603ddc3b0ed2ceb73277f50",
+				"dweb:/ipfs/QmZmwnH2c75bkGbWsSRqXmywE4HB8XifGD1KnFkjNDpu8b"
 			]
 		}
 	},
