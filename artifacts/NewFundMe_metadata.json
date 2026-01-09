@@ -51,51 +51,6 @@
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "ethAmount",
-						"type": "uint256"
-					}
-				],
-				"name": "getConversionRate",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getPrice",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getversion",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"inputs": [],
 				"name": "minimumUSD",
 				"outputs": [
@@ -122,7 +77,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Contract/AggregatorInterfaceV3.sol": "FundMe"
+			"Contract/New FundMe.sol": "NewFundMe"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -144,12 +99,20 @@
 				"dweb:/ipfs/QmaG6vz6W6iEUBsbHSBob5mdcitYxWjoygxREHpsJHfWrS"
 			]
 		},
-		"Contract/AggregatorInterfaceV3.sol": {
-			"keccak256": "0x5d2e01c3922603e6d52326a5cda55d5f5075434a64711957cb13cae5d9bdb8ec",
+		"Contract/New FundMe.sol": {
+			"keccak256": "0xf845b8b45f8a371788b644a16ecfbff917b58357460630d37887d14481e15dea",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://76c674ac79fd320ea990020723d9acdb50622717f4eb092a75f64a0639b501ca",
-				"dweb:/ipfs/QmXruv61UaWHQtHvAMXJwf2rCs5yDCEkNoHQ7Zdjkmox9V"
+				"bzz-raw://c4ffab5ec73fa35a5870072bd9cfc10b40ec154bd4bade669f57c0451dcb2783",
+				"dweb:/ipfs/QmS4VVfvBFT4s4whLDxeFMq4dBh7n2Y92dTx1uu63mYfRX"
+			]
+		},
+		"Contract/PriceConverter.sol": {
+			"keccak256": "0xdddfe2e278a2e02a352dbba45afed0ae7be79410953bf2cc9efdb858bbbedb4b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://03d0e77038067407bb923c8c61d582740497624b3fdcd2d0ae62e2e22f353f9b",
+				"dweb:/ipfs/QmPLH1LyZTaR2r8rQWf7woD5kNi74VZnJaJENB6ReMBLk8"
 			]
 		}
 	},
